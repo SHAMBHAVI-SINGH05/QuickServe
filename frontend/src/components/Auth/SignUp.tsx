@@ -114,8 +114,11 @@ const SignUp: React.FC = () => {
             <Coffee className="h-6 w-6 text-white" />
           </div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Create your account
+            Create Your QuickServe Account
           </h2>
+          <p className="mt-2 text-center text-gray-500">
+  Start managing canteen queues with AI-powered insights
+</p>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           {error && (
